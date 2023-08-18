@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Matthew Hakin",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -242, "left": -15.07, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:GND", "nano:GND.2", "black", [ "h0" ] ],
+    [ "servo1:V+", "nano:5V", "green", [ "h0" ] ],
+    [ "servo1:PWM", "nano:6", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
