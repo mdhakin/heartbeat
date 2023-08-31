@@ -1,4 +1,4 @@
-#define SECRET_SSID "Mega"
+#define SECRET_SSID "Nano4"
 #define SECRET_PASS "uxHA4Nc2s"
 
 // Flush the serial buffer
